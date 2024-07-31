@@ -1,0 +1,24 @@
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Varela Round", sans-serif;  
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #fff;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #6482AD;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #f0f0f0;
+    /* creates padding around scroll thumb */
+}

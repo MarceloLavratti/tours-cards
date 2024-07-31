@@ -1,0 +1,35 @@
+h1 {
+    display: inline-block;
+    border-bottom: 4px solid #6482AD;
+    border-radius: 1px;
+    padding-bottom: 8px;
+    color: #141E46;
+}
+
+.header-div {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+
+.header-div button {
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-color: #6482AD;
+    font-size: 1.124rem;
+    margin-top: 30px;
+    transition: background-color 0.3s, transform 0.1s; 
+    border-radius: 5px;
+    color: #141E46;
+}
+
+.header-div button:hover {
+    cursor: pointer;
+    background-color: #7FA1C3;
+}
+
+.header-div button:active {
+    background-color: #6482AD;
+    transform: scale(0.95);
+}

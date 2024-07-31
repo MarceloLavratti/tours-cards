@@ -1,0 +1,97 @@
+img{
+    max-width: 100%;    
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.image-div {
+    max-width: 100%;
+    max-height: 400px;
+    overflow: hidden;     
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-price {
+    width: 525px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+    color: #141E46;
+}
+
+.title-price span h3{
+    color: #6482AD;
+    background-color: #d9edff;
+    padding: 0 5px;
+    border-radius: 2px;
+}
+
+p{
+    width: 525px;
+    margin: 0;
+    padding: 0;
+}
+
+.info-btn-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-btn-div p {
+    color: #141E46;
+}
+
+.info-btn-div span {
+    color: #6482AD;
+}
+
+.info-btn-div span:hover{
+    cursor: pointer;
+
+    color: #7FA1C3;
+}
+
+.info-btn-div button {
+    width: 200px;
+    font-size: 1.125rem;
+    background-color: transparent;
+    color: #c54949;
+    border: 2px solid #c54949;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.info-btn-div button:hover {
+    cursor: pointer;
+    color: #ff8181;
+    border: 2px solid #ff8181;
+} 
+
+.info-btn-div button:active {
+    transform: scale(0.95);
+}
